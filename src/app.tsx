@@ -1,11 +1,12 @@
-import React from 'react';
-import { useParams } from 'react-router';
+import React from "react";
+import Router from "./component/router";
+import Layout from "./ui/layout";
 
 const App = () => {
-    const { id } = useParams<{ id: string }>();
-
     return (
-        <div>Render {id}</div>
+        <Layout>
+            <Router />
+        </Layout>
     );
 };
 
