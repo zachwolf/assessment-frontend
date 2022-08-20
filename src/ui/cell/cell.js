@@ -1,5 +1,16 @@
 import styles from "./cell.module.css";
 
-export default function Cell({ children }) {
-    return <div className={styles.cell}>{children}</div>;
+console.log(styles);
+
+export default function Cell(props) {
+    const { children, collapse, className: passThroughClassname = null } = props;
+    return (
+        <div
+            className={`${styles.cell} ${
+                collapse ? styles["cell--isCollapsed"] : ""
+            } ${passThroughClassname}`}
+        >
+            {children}
+        </div>
+    );
 }

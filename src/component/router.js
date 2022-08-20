@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Root from "../view/root";
-import PageOne from "../view/pageOne";
+import PageOneStatic from "../view/pageOneStatic";
 
 export default function AppRouter() {
     return (
@@ -9,8 +9,8 @@ export default function AppRouter() {
                 <Route path="/" exact>
                     <Root />
                 </Route>
-                <Route path="/page-one">
-                    <PageOne />
+                <Route path="/page-one-static">
+                    <PageOneStatic />
                 </Route>
                 <Route path="/:id">todo: route</Route>
                 <Route path="*">404</Route>

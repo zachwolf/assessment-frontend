@@ -1,34 +1,3 @@
-@import './reset.css';
-
-/* custom properties */
-
-:root {
-    --page-width: 600px; /* some resemblance of responsive */
-
-    --spacing-unit: 18px;
-
-    --brand-font-primary: 'Roboto', sans-serif;
-    --brand-color-bg: #eee;
-    --brand-color-lightest: #fff;
-    --brand-color-darkest: #000;
-}
-
-/* component styles */
-
-/* https://www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/ */
-html {
-    font-size: 62.5%; 
-}
-
-/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
 body, .root {
     min-height: 100vh;
 }
@@ -41,7 +10,6 @@ body, .root {
 }
 
 .layout {
-    /* padding: todo; */
     padding: var(--spacing-unit);
     margin: 0 auto;
     max-width: var(--page-width);

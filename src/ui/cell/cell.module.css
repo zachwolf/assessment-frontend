@@ -1,10 +1,14 @@
 .cell {
     background: var(--brand-color-lightest);
-    padding: var(--spacing-unit);
     border-radius: var(--spacing-unit);
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 15%);
+    box-shadow: var(--common-box-shadow);
+    overflow: hidden;
 }
 
 .cell + .cell {
     margin-top: var(--spacing-unit);
+}
+
+.cell:not(.cell--isCollapsed) {
+    padding: var(--spacing-unit);
 }
