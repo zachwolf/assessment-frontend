@@ -1,0 +1,12 @@
+.icon {
+    width: calc(var(--spacing-unit) * 2);
+}
+
+.icon--x2 {
+    width: calc(var(--spacing-unit) * 3);
+}
+
+.icon__img {
+    height: auto;
+    width: 100%;
+}
