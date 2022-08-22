@@ -1,0 +1,6 @@
+.locationImage {
+    background: var(--brand-color-hero);
+    max-height: calc(var(--spacing-unit) * 10);
+    align-items: center;
+    display: flex;
+}
