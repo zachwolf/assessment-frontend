@@ -49,5 +49,6 @@
         "@types/react-router-dom": "^5.1.8",
         "superagent": "^6.1.0",
         "supertest": "^6.1.4"
-    }
+    },
+    "proxy": "http://localhost:3030"
 }
