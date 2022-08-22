@@ -1,0 +1,14 @@
+.cell {
+    background: var(--brand-color-lightest);
+    border-radius: var(--spacing-unit);
+    box-shadow: var(--common-box-shadow);
+    overflow: hidden;
+}
+
+.cell + .cell {
+    margin-top: var(--spacing-unit);
+}
+
+.cell:not(.cell--isCollapsed) {
+    padding: var(--spacing-unit);
+}

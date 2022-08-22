@@ -1,0 +1,47 @@
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location__overview {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.location__details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.location__uhhhhLocation {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.location__upcoming {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.location__day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location__day > * + * {
+    margin-top: calc(var(--spacing-unit) / 2);
+}
+
+.location__temperature {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.location__unit {
+    text-transform: uppercase;
+}

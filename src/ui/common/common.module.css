@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+/* custom properties */
+
+:root {
+    --page-width: 600px; /* some resemblance of responsive */
+
+    --spacing-unit: 18px;
+
+    --brand-font-primary: 'Roboto', sans-serif;
+    --brand-color-bg: #eee;
+    --brand-color-lightest: #fff;
+    --brand-color-darkest: #000;
+    --brand-color-hero: #2e71f0;
+
+    --common-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 15%);
+}
+
+/* component styles */
+
+/* https://www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/ */
+html {
+    font-size: 62.5%; 
+}
+
+/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}

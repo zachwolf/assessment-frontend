@@ -1,0 +1,16 @@
+body, .root {
+    min-height: 100vh;
+}
+
+.root {
+    background: var(--brand-color-bg);
+    font-family: var(--brand-font-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.layout {
+    padding: var(--spacing-unit);
+    margin: 0 auto;
+    max-width: var(--page-width);
+}
