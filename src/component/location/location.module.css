@@ -41,3 +41,7 @@
     font-size: 3rem;
     font-weight: 300;
 }
+
+.location__unit {
+    text-transform: uppercase;
+}
